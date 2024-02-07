@@ -14,7 +14,7 @@
     width: 55%;
 }
 .mainContainer {
-    width: 70%;
+    width: 60%;
 }
 .flexRow {
     display: flex;
@@ -27,6 +27,7 @@
     flex-basis: 0;
     flex-grow: 1;
     max-width: 100%;
+    margin-bottom: 10px;
 }
 .marginBottom20 {
     margin-bottom: 20px;
@@ -35,14 +36,14 @@
     margin-bottom: 10px;
 }
 .margin20 {
-    margin: 20px;
+    margin: 16px;
 }
 .formWrapper {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-left: 60px;
+    margin-left: 50px;
 }
 .card {
     border: lightgray solid 1px;
@@ -55,17 +56,17 @@
     align-items: center;
 }
 #mainLoginForm {
-    padding: 20px;
+    padding: 15px;
     margin-top: 100px;
 }
 #mainLoginForm input {
-    width: calc(100% - 40px);
+    width: calc(90% - 50px);
     padding: 10px;
     border: 1px solid #ddd;
     border-radius: 6px;
 }
 #mainLoginForm button {
-    width: calc(100% - 20px);
+    width: calc(90% - 30px);
     padding: 10px;
     border: none;
     border-radius: 6px;
@@ -75,29 +76,30 @@
     cursor: pointer;
 }
 #mainLoginForm button.create-account {
-    background-color: #42b72a;
+    background-color: #41ba29;
 }
 .separatorLine {
-    background-color: lightgrey;
+    background-color: rgb(219, 217, 217);
     width: 70%;
     height: 1px;
 }
 .logo {
     margin-bottom: 30px;
+    height: 40px;
 }
 .lightGreyText {
-    color: lightgray;
+    color: rgb(218, 218, 218);
 }
 .facebookBlueText {
-    color: #385185;
+    color: #3d5996;
 }
 .registerButton {
-    padding: 5px 20px;
+    padding: 5px 15px;
 }
 .appButton {
-    margin: 5px;
+    margin: 7px;
     width: 100px;
-    height: 30px;
+    height: 35px;
 }
 .languageOptions {
     list-style-type: none;
@@ -106,10 +108,21 @@
     overflow: hidden;
 }
 .languageOptions li {
-    color: gray;
-    float: left;
     padding: 16px;
+    word-spacing: 10px;
+    
 }
 footer {
     width: 100%;
+    margin-top: 50px;
+    font-size: 14px;
+    text-align: center; 
+}
+.lt {
+    color: rgb(137, 137, 137);
+    text-decoration: none;   
+}
+.ds {
+    margin-top: 50px;
+    margin-left: 20px;
 }
