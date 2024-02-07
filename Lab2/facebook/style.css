@@ -1,0 +1,121 @@
+footer {
+    width: 100%;
+    height: 20vh;
+}
+.bgLightGray {
+    background-color: #f0f2f5;
+}
+.bgWhite {
+    background-color: white;
+}
+.mainContainer {
+    width: 85%;
+}
+.mainContent {
+    height: 80vh;
+}
+.languageOptions {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.languageOptions li {
+    float: left;
+    padding: 16px;
+}
+.brandTitle {
+    font-size: 56px;
+    color: #0076fc;
+    font-weight: 600;
+    font-family: Arial;
+}
+.welcomeMessage {
+    width: 70%;
+    font-size: 26px;
+    padding-right: 20px;
+}
+.flexColumnDouble {
+    flex-basis: 0;
+    flex-grow: 2;
+    max-width: 100%;
+}
+.flexCenterVertical {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.flexCenterHorizontal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.marginBottom20 {
+    margin-bottom: 22px;
+}
+.formWrapper {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+a {
+    color: #666666;
+}
+#mainLoginForm {
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    padding: 22px 22px 22px 22px;
+    display: flex;
+    width: 75%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 70px;
+    margin-right: 75px;
+}
+#mainLoginForm input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+}
+#mainLoginForm button {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    background-color: #1877f2;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+#mainLoginForm button.create-account {
+    background-color: #42b72a;
+}
+.passwordRecoveryLink {
+    color: #1877f2;
+    font-size: 14px;
+    margin-bottom: 13px;
+}
+.separatorLine {
+    background-color: gray;
+    width: 100%;
+    height: 1px;
+}
+.formWrapper p {
+    max-width: 470px; 
+    margin: 0 auto; 
+    text-align: center;
+    margin-top: 25px;
+    margin-right: 68px;
+}
+#links {
+    word-spacing: 10px;
+    text-decoration: none;
+}
+
