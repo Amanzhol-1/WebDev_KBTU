@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(191, 191, 253);
+    padding: 10px;
+
+}
+.do-app{
+    width: 1150px;
+    margin: 50px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 50px;
+    background-color: rgb(255, 255, 255)	;
+}
+.do-app h2{
+    color:black;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    margin-bottom: 35px;
+}
+.do-app h2 img{
+    width: 30px;
+    margin-left: 10px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+    background: #d1d1d1;
+}
+input{
+    flex: 1;
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 10px;
+    font-size: 17px;
+}
+button{
+    border: none;
+    outline: none;
+    padding: 16px 50px;
+    background: rgb(255, 170, 12);
+    color: black;
+    font-size: 17px;
+    border-radius: 30px;
+}
+ul li{
+    list-style: none;
+    font-size: 17px;
+    padding: 12px 8px 12px 50px;
+    border-bottom: 1px solid lightgrey;
+    user-select: none;
+    position: relative;
+}
+ul li::before{
+    content: '';
+    position: absolute;
+    height: 28px;
+    width: 28px;
+    background-image: url(assets/unCheck.png);
+    background-size: cover;
+    background-position: center;
+    top: 7px;
+    left: 3px;
+}
+ul li.checked{
+    color: #555;
+    text-decoration: line-through;
+}
+ul li.checked::before{
+    width: 40px;
+    height: 40px;
+    top: 1px;
+    left: -3px;
+    background-image: url(assets/check.png);
+}
+ul li span{
+    position: absolute;
+    right: 0;
+    top: 5px;
+    width: 40px;
+    height: 40px;
+    font-size: 22px;
+    color: #555;
+    line-height: 40px;
+    text-align: center;
+}
