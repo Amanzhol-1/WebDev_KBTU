@@ -1,0 +1,13 @@
+<h2>О книге</h2>
+
+<div *ngIf="product">
+  <h3>{{ product.name }}</h3>
+  <ng-container *ngIf="product.img && product.img.length">
+    <img *ngFor="let image of product.img" [src]="image" [alt]="product.name" style="max-width: 280px; max-height: 280px; margin-right: 10px;">
+  </ng-container>
+  <h4>{{ product.price | currency }}</h4>
+  <p>{{ product.description }}</p>
+  <p>Рейтинг: {{ product.rating }}/5</p>
+  <a [href]="product.link" target="_blank">Подробнее</a>
+</div>
+

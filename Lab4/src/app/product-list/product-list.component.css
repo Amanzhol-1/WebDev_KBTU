@@ -1,0 +1,15 @@
+.btn {
+    /* Стили для кнопок */
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    margin-bottom: -5px;
+  }
+  
+  .btn-primary:hover {
+    background-color: blue;
+  }
+  
