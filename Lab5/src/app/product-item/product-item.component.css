@@ -1,0 +1,46 @@
+
+.product-list {
+  margin: 20px;
+}
+
+.product-item {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.product-image {
+  max-width: 100%; 
+  height: auto;
+  margin-bottom: 10px; 
+}
+.tab {
+  margin-left: 30px;
+}
+.product-item {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: rgb(42, 40, 40)
+}
+
+.product-item h3 a {
+  color:hsl(227, 100%, 50%);
+  text-decoration: none;
+}
+
+.product-description {
+  
+  color: rgb(255, 255, 255);
+  line-height: 2;
+}
+
+.share-button {
+  background-color: #583c0f;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  margin-left: 20px;
+}
+

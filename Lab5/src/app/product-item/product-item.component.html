@@ -1,0 +1,32 @@
+<div *ngIf="product" class="product-item">
+  <h3>
+    <a [title]="product.name + ' details'" [routerLink]="['/products', product.id]">
+      {{ product.name }}
+    </a>
+  </h3>
+
+  <img [src]="product.imagePath[0]" alt="{{ product.name }}" class="product-image">
+
+  <p *ngIf="product.description" class="product-description">
+    Description: {{ product.description }}
+  </p>
+
+  <p class="tab">
+    Rating: {{ product.rating }} / 5 <br>
+    Likes: {{ product.likes }}
+  </p>
+
+  <button type="button" (click)="share(product)" class="share-button">
+    Share
+  </button>
+
+  <button type="button" (click)="like()" class="share-button">
+    Like
+  </button>
+
+  <button type="button" (click)="remove()" class="share-button">
+    Remove
+  </button>
+  
+  <app-product-alerts [product]="product" (notify)="onNotify()"></app-product-alerts>
+</div>

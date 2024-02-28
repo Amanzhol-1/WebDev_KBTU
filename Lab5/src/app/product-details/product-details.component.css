@@ -1,0 +1,27 @@
+
+.product-details {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-left: 10px;
+}
+
+.product-details h3 {
+  color: hsl(227, 100%, 50%);
+  font-weight: 730;
+}
+
+.product-details h4 {
+  color: rgb(148, 207, 120);
+}
+
+.product-item {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.product-image {
+  max-width: 100%; 
+  height: auto; 
+  margin-bottom: 10px;
+}

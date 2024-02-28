@@ -1,0 +1,21 @@
+<div class="input">
+  <input type="text" placeholder="Search categories..." (input)="onSearchChange($event)" class="search-input" />
+</div>
+
+<div *ngIf="filteredCategories.length > 0; else noResults" class="category-container">
+  <div *ngFor="let category of filteredCategories">
+    <button (click)="selectCategory(category)" class="button">{{ category.name }}</button>
+  </div>
+</div>
+
+<ng-template #noResults>
+  <p class="no-results-text">No results found</p>
+</ng-template>
+
+<div *ngIf="curCategory" class="selected-category-container">
+  <h2 class="selected-category-heading">Selected Category: {{ curCategory.name }}</h2>
+  <p class="product-list-container">
+    <app-product-list [products]="curCategory.productList"></app-product-list>
+  </p>
+</div>
+

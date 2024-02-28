@@ -1,0 +1,56 @@
+
+.input {
+  margin: 15px;
+  color: black;
+}
+
+.button {
+  margin: 10px;
+  width: 90px;
+  margin-left: 30px;
+}
+
+.search-input {
+  padding: 8px;
+  font-size: 14px;
+}
+
+.category-container {
+  margin-bottom: 20px;
+}
+
+.category-button {
+  padding: 10px;
+  margin-right: 10px;
+  font-size: 16px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.category-button:hover {
+  background-color: #2980b9;
+}
+
+.no-results-text {
+  font-size: 16px;
+  color: #fa0800;
+}
+
+.selected-category-container {
+  margin-top: 20px;
+}
+
+.selected-category-heading {
+  font-size: 20px;
+}
+
+.select-category-text {
+  font-size: 16px;
+  color: #7f8c8d;
+}
+
+.product-list-container {
+  margin-top: 10px;
+}

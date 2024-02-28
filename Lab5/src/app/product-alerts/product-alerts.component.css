@@ -1,0 +1,18 @@
+
+.product-alerts {
+  margin-top: 10px;
+}
+
+.product-alerts p {
+  color: #ff4500;
+  font-weight: bold;
+}
+
+.product-alerts button {
+  background-color: #135021;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  margin-left: 20px;
+}

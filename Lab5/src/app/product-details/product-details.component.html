@@ -1,0 +1,15 @@
+  
+<div class="product-details"> 
+  <div *ngIf="product"> 
+    <h3>{{ product.name }}</h3>
+    <ng-container *ngIf="product.imagePath && product.imagePath.length">
+      <a [href]="product.kaspiUrl">
+        <img [src]="product.imagePath[0]" alt="{{ product.name }}" class="product-image" style="max-width: 280px; max-height: 280px; margin-right: 10px;">
+      </a>
+    </ng-container> 
+    <h4>Цена : {{ product.price }} т</h4> 
+    <p>{{ product.description }}</p> 
+    <p>Рейтинг : {{ product.rating }} / 5</p> 
+  </div> 
+  <a [routerLink]="['screamer']"><p>dont touch it!</p></a>
+</div>
