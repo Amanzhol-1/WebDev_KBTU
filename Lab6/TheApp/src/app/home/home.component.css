@@ -1,0 +1,33 @@
+/* home.component.css */
+.home-container {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .home-container h1 {
+    font-size: 36px;
+    color: #333;
+  }
+  
+  .home-container p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .links-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .links-container a {
+    margin: 0 10px;
+    font-size: 16px;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .links-container a:hover {
+    text-decoration: underline;
+  }
+  
