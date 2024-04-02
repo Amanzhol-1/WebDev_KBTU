@@ -24,9 +24,5 @@ class CategoryProductList(generics.ListAPIView):
     serializer_class = ProductSerializer
 
     def get_queryset(self):
-        """
-        This view should return a list of all the products
-        for the category as determined by the category_id portion of the URL.
-        """
         category_id = self.kwargs['category_id']
         return Product.objects.filter(category_id=category_id)
