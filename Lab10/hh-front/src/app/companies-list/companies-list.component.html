@@ -1,0 +1,10 @@
+<!-- src/app/companies-list/companies-list.component.html -->
+
+<div class="company-list">
+  <h2>Список компаний</h2>
+  <div *ngFor="let company of companies" class="company-card">
+    <h3>{{ company.name }}</h3>
+    <p>{{ company.description }}</p>
+    <address>{{ company.city }}, {{ company.address }}</address>
+  </div>
+</div>

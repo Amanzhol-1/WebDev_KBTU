@@ -1,0 +1,27 @@
+/* src/app/vacancies-list/vacancies-list.component.css */
+
+.vacancy-list {
+    padding: 20px;
+  }
+  
+  .vacancy-card {
+    border: 1px solid #eee;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.1);
+  }
+  
+  .vacancy-card h3 {
+    margin-top: 0;
+  }
+  
+  .vacancy-card p {
+    color: #555;
+  }
+  
+  /* Если есть, стили для отображения зарплаты */
+  .vacancy-card p strong {
+    color: #222;
+  }
+  

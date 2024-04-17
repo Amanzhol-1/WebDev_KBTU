@@ -1,0 +1,12 @@
+<!-- src/app/vacancies-list/vacancies-list.component.html -->
+
+<div class="vacancy-list">
+    <h2>Список вакансий</h2>
+    <div *ngFor="let vacancy of vacancies" class="vacancy-card">
+      <h3>{{ vacancy.name }}</h3>
+      <p>{{ vacancy.description }}</p>
+      <p><strong>Зарплата:</strong> {{ vacancy.salary }}</p>
+      <!-- Дополнительные детали вакансии -->
+    </div>
+  </div>
+  
